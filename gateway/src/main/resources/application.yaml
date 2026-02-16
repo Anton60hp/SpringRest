@@ -11,11 +11,11 @@ spring:
               lower-case-service-id: true
           routes:
             - id: hotel-route
-              uri: lb://hotel-service
+              uri: lb://HOTEL-MANAGMENT
               predicates:
                 - Path=/api/hotels/**,/api/rooms/**
             - id: booking-route
-              uri: lb://booking-service
+              uri: lb://BOOKING
               predicates:
                 - Path=/api/bookings/**,/api/booking/**,/api/user/**
 server:
