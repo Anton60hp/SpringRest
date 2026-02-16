@@ -11,8 +11,6 @@ import ru.vgerasimov.booking.entity.User;
 import ru.vgerasimov.booking.mapper.UserMapper;
 import ru.vgerasimov.booking.repository.UserRepository;
 
-import java.util.List;
-import java.util.stream.Collectors;
 
 @Service
 @RequiredArgsConstructor

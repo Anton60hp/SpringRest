@@ -1,7 +1,6 @@
 package ru.vgerasimov.booking.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
-import ru.vgerasimov.booking.dto.BookingDto;
 import ru.vgerasimov.booking.entity.Booking;
 
 import java.util.List;

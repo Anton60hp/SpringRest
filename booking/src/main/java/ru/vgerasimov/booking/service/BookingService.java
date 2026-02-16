@@ -23,7 +23,6 @@ import ru.vgerasimov.booking.repository.BookingRepository;
 import ru.vgerasimov.booking.repository.UserRepository;
 
 import java.time.LocalDate;
-import java.time.temporal.ChronoUnit;
 import java.util.List;
 import java.util.UUID;
 import java.util.stream.Collectors;

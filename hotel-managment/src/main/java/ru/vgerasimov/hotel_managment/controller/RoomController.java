@@ -4,14 +4,11 @@ package ru.vgerasimov.hotel_managment.controller;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
-import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
-import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.*;
 import ru.vgerasimov.hotel_managment.dto.AvailabilityRequest;
 import ru.vgerasimov.hotel_managment.dto.ConfirmResponse;
 import ru.vgerasimov.hotel_managment.dto.RoomDto;
-import ru.vgerasimov.hotel_managment.dto.RoomRequest;
 import ru.vgerasimov.hotel_managment.service.IdempotencyService;
 import ru.vgerasimov.hotel_managment.service.RoomService;
 

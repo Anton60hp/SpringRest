@@ -17,7 +17,7 @@ import ru.vgerasimov.hotel_managment.mapper.RoomMapper;
 import ru.vgerasimov.hotel_managment.repository.RoomBlockRepository;
 import ru.vgerasimov.hotel_managment.repository.RoomRepository;
 
-import java.time.LocalDate;
+
 import java.time.LocalDateTime;
 import java.util.List;
 import java.util.stream.Collectors;

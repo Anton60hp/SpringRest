@@ -14,8 +14,6 @@ import ru.vgerasimov.booking.dto.RegisterRequest;
 import ru.vgerasimov.booking.dto.TokenResponse;
 import ru.vgerasimov.booking.dto.UserDto;
 import ru.vgerasimov.booking.mapper.UserMapper;
-import ru.vgerasimov.booking.repository.BookingRepository;
-import ru.vgerasimov.booking.repository.UserRepository;
 import ru.vgerasimov.booking.service.TokenService;
 import ru.vgerasimov.booking.service.UserService;
 

@@ -1,16 +1,11 @@
 package ru.vgerasimov.hotel_managment.controller;
 
 
-import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
-import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
-import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.*;
 import ru.vgerasimov.hotel_managment.dto.HotelDto;
-import ru.vgerasimov.hotel_managment.dto.HotelRequest;
-import ru.vgerasimov.hotel_managment.repository.HotelRepository;
 import ru.vgerasimov.hotel_managment.service.HotelService;
 
 import java.util.List;
