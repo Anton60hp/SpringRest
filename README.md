@@ -36,12 +36,12 @@ eureka будет доступна на порту 8761
 cd hotel-managment
 mvn spring-boot:run
 ```
-hotel-managment будет доступна на порту 8081
+hotel-managment будет доступен на порту 8081
 ```
 cd booking
 mvn spring-boot:run
 ```
-booking будет доступна на порту 8082
+booking будет доступен на порту 8082
 ```
 cd gateway
 mvn spring-boot:run
